@@ -5,7 +5,6 @@
 .home_container{
     padding: 10rem 5vw;
     display: flex;
-    /* gap: 30px; */
     justify-content: space-between;
     align-items: center;
 }
@@ -57,15 +56,14 @@
 
 
 @media screen and (max-width: 480px){
-    .home{
-        justify-content: center;
-        align-items: center;
-    }
     .home_container{
         display: flex;
         flex-direction: column-reverse;
-        padding: 80px 100px;
+        padding: 4rem 11vw;
         gap: 5px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .home_right img{
         width: 380px;
@@ -83,10 +81,20 @@
         letter-spacing: 1px;
     }
     .home_btn button{
+        display: flex;
         background: none;
         width: 120px;
         height: 32px;
         font-size: 12px;
         cursor: pointer;
+        justify-content: center;
+        align-items: center;
+    }
+    .home_btn{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }
