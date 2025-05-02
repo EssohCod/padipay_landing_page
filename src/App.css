@@ -1,6 +1,8 @@
 #root {
-    min-width: 1280px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     list-style: none;
+    box-sizing: border-box;
 }
+  
