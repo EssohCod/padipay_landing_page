@@ -53,7 +53,7 @@ const Nav = () => {
             {[
               { label: 'Home', id: 'home' },
               { label: 'Features', id: 'features' },
-              { label: 'How It Works', id: 'how-it-works' },
+              { label: 'How It Works', id: 'howItWorks' },
               { label: 'Pricing', id: 'pricing' },
               { label: 'Testimonials', id: 'testimonials' },
               { label: 'Contact', id: 'contact' },
